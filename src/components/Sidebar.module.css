@@ -1,0 +1,41 @@
+.sidebar {
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+  height: calc(100vh - 65px);
+  position: sticky;
+  top: 65px;
+}
+
+.selectGroup {
+  margin-bottom: 14px;
+}
+
+.selectGroup:last-child {
+  margin-bottom: 0;
+}
+
+.selectLabel {
+  display: block;
+  font-size: 12.5px;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.select {
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: inherit;
+  color: var(--text);
+  background: var(--surface2);
+  outline: none;
+  cursor: pointer;
+}
+
+.select:focus {
+  border-color: #6366f1;
+}
